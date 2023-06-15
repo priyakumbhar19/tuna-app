@@ -9,8 +9,8 @@ pipeline {
       stage ("stage1") {
 	  steps {
 	         sh "sudo service httpd start"
-			 sh "sudo cp -r index.html >> /var/lib/html"
-			 sh "chmod -R 777 /var/lib/html/index.html
+			 sh "sudo cp -r index.html >> /var/lib/html/"
+			 sh "chmod -R 777 /var/lib/html/index.html"
 	  }
 	  }
  }
